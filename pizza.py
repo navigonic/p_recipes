@@ -17,12 +17,12 @@ except ValueError:
 weight = base_weight * nbr_eaters
 
 # Proportionerna * totala degmassan för antalet pizzor
-flour = 1.0*weight
-water = 0.610*weight
-oil = 0.075*weight
-yeast = 0.005*weight
+flour = round((1.0*weight), 2)
+water = round((0.610*weight),2)
+oil = round((0.075*weight),2)
+yeast = round((0.005*weight),2)
 dryyeast = round(((14/50)*yeast),2)
-salt = 0.02*weight
+salt = round((0.02*weight),2)
 
 print("Ingredienser:")
 print(' - Vetemjöl: {}g \n - Vatten: {}g \n - Olja: {}g \n - Jäst: {}g / Torrjäst: {}g \n - Salt: {}g'.format(flour, water, oil, yeast, dryyeast, salt))
