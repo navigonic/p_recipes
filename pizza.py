@@ -17,7 +17,7 @@ except ValueError:
 weight = base_weight * nbr_eaters
 
 # Proportionerna * totala degmassan för antalet pizzor
-flour = round((1.0*weight), 2)
+flour = weight
 water = round((0.610*weight),2)
 oil = round((0.075*weight),2)
 yeast = round((0.005*weight),2)
