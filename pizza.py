@@ -16,7 +16,7 @@ except ValueError:
         
 weight = base_weight * nbr_eaters
 
-#Proportionerna * totala degmassan för antalet pizzor
+# Proportionerna * totala degmassan för antalet pizzor
 flour = 1.0*weight
 water = 0.610*weight
 oil = 0.075*weight
