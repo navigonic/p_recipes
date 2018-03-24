@@ -1,5 +1,6 @@
 # Orginalrecept och kod av Pokemonkejsarn https://github.com/pokemonkejsaren/c_recipes/blob/master/pizza.c
 # Pythonifierad
+
 # Basala vikten i gram för en pizza, ca 170 g normalstor
 base_weight = 170
 
@@ -15,7 +16,7 @@ except ValueError:
         
 weight = base_weight * nbr_eaters
 
-# Proportionerna * totala degmassan för antalet pizzor
+# Proportionerna relativt till vetemjölen * totala degmassan för antalet pizzor
 flour = 1.0*weight
 water = 0.610*weight
 oil = 0.075*weight
