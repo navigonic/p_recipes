@@ -1,5 +1,6 @@
 # Orginalrecept och kod av Pokemonkejsaren https://github.com/pokemonkejsaren/c_recipes/blob/master/pizza.c
-# Pythonifierad med förbättringar avseende föregångarens vägrande att använda torrjäst
+# Pythonifierad
+
 # Basala vikten i gram för en pizza, ca 170 g normalstor
 base_weight = 170
 
